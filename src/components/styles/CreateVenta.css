@@ -1,0 +1,173 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #103f85;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.container {
+    height: 300px;
+    display: grid;
+    place-items: center;
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(236, 19, 19, 0.1);
+    padding: 40px;
+    width: 60%;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Espacio entre inputs y botones */
+  }
+
+.entry {
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#tituloCrearUsuario {
+    font-style: italic;
+    color: #333;
+}
+
+#inputUsername {
+margin-top: 10px;
+width: 100%;
+padding: 10px;
+border-radius: 10px;
+background-color: #c4eef3;
+color: rgb(10, 10, 10);
+border: none;
+}
+
+
+#inputNombre {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #c4eef3;
+    color: rgb(10, 10, 10);
+    border: none;
+    }
+
+#inputPassword {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #c4eef3;
+    color: rgb(10, 10, 10);
+    border: none;
+}
+
+.password-field {
+    position: relative;
+    margin-top: 10px;
+}
+
+.password-field input {
+    width: 100%;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: rgb(7, 7, 7);
+    cursor: pointer;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color:rgb(255, 102, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1a0dab;
+}
+
+#btnHome {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #301bee;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btnHome:hover {
+    background-color: #1a0dab;
+}
+
+.button-group {
+    margin-top: 20px; /* Espacio entre los campos y los botones */
+    display: flex;
+    gap: 10px; /* Espacio entre los botones */
+  }
+
+#txtBienvenida {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.txt {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #333;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #2ce9f0; /* Cambia el color del checkbox cuando está seleccionado */
+}
+
+#checkbox{
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    cursor: pointer;
+}
+
+label {
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    cursor: pointer;
+}
+label{
+    color: #000000; /* Cambia el color del texto al pasar el cursor */
+}

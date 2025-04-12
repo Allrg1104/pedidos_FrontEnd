@@ -1,0 +1,73 @@
+.admin-home {
+    font-family: 'Arial', sans-serif;
+    color: #333;  
+    min-height: 100vh;
+    display: flex; /* Usar flexbox para centrar el contenido */
+    flex-direction: column; /* Coloca los elementos en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+  }
+
+
+.main-content {
+    max-width: 900px;
+    margin: 2rem; /* Elimina el auto margen para que el contenido esté centrado */
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 90%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+
+.container {
+    height: 300px;
+    display: grid;
+    place-items: center;
+}
+
+.welcomeAdmin {
+    color: #ff6600;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+
+  .user-info, .lista-codigo{
+    margin-bottom: 2rem;
+  }
+
+#btnEditarah {
+    margin-top: 15px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white
+}
+
+#textoAdmin {
+    font-style: italic;
+}
+
+#textoEditar {
+    margin-top: 0px;
+    margin: 100px;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(95, 82, 82);
+    color: white;
+}
+
+
+#btnHomeAdmin {
+    margin-top: 15px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white
+}
