@@ -20,7 +20,7 @@ function ChangePassword() {
         }
 
         try {
-            const response = await fetch('https://gana-como-loco-allrg1104-backend.vercel.app/v1/signos/change-password', {
+            const response = await fetch('https://pedidos-back-end.vercel.app/v1/signos/change-password', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

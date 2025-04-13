@@ -5,7 +5,8 @@ import './styles/AdminHome.css';
 
 const fetchVentas = async () => {
   try {
-    const response = await axios.get('http://localhost:5000/v1/drivers/Venta');
+    //const response = await axios.get('http://localhost:5000/v1/drivers/Venta');
+    const response = await axios.get('https://pedidos-back-end.vercel.app/v1/drivers/Venta');
     return response.data;
   } catch (error) {
     console.error('Error al obtener las ventas:', error);

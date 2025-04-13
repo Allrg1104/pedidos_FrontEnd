@@ -40,7 +40,8 @@ const CreateVenta = () => {
     const estadoTarjeta = validarTarjeta(tarjeta);
   
     try {
-      await axios.post('http://localhost:5000/v1/drivers/ventas', {
+      //await axios.post('http://localhost:5000/v1/drivers/ventas', {
+      await axios.post('https://pedidos-back-end.vercel.app/v1/drivers/ventas', {
         producto,
         valor,
         nombre,
